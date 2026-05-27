@@ -1,7 +1,18 @@
+#title{
+    text-align: center;
+}
 
 .parent {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: repeat(5, 1fr);
     gap: 8px;
+    text-align: center;
+    border: black solid 1px;
+}
+
+.parent div{
+    border: black solid 1px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px
 }
