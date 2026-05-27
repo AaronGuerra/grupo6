@@ -64,6 +64,17 @@ body {
 .letter.active .letter-img {
     opacity: 1;
 }
+.btn-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+#randomColorsBtn{
+  padding: 20px 60px;
+  font-size: 22px;
+  font-weight: bold;
+}
 
 #x, #y, #z, #filler-gif {
     grid-row-start: 5;
