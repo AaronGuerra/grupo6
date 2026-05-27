@@ -68,3 +68,13 @@ body{
 .letter.active .letter-img {
   opacity: 1;
 }
+.btn-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#randomColorsBtn{
+  padding: 10px 20px;
+  font-size: 1rem;
+}

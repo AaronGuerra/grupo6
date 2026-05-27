@@ -18,3 +18,25 @@ letters.forEach((element) => {
     element.classList.remove("active");
   });
 });
+const button = document.getElementById("randomColorsBtn");
+
+button.addEventListener("click", () => {
+
+  // volver todo a verde
+  letters.forEach((el) => {
+    el.style.color = "rgb(70, 117, 0)";
+  });
+
+  const arr = Array.from(letters);
+
+  // mezclar aleatorio
+  const shuffled = arr.sort(() => Math.random() - 0.5);
+
+  // 3 azules
+  shuffled.slice(0, 3).forEach((el) => {
+    el.style.color = "blue";
+  });
+
+  // 1 roja
+  shuffled[3].style.color = "red";
+});
