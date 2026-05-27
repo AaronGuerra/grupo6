@@ -71,10 +71,11 @@ body{
 .btn-container{
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 5px;
 }
 
 #randomColorsBtn{
-  padding: 10px 20px;
-  font-size: 1rem;
+  padding: 20px 60px;
+  font-size: 22px;
+  font-weight: bold;
 }
