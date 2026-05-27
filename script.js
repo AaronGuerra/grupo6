@@ -1,12 +1,20 @@
 const letters = document.querySelectorAll(".letter");
-const img = document.createElement("img");
 
 letters.forEach((element) => {
+  const letter = element.textContent.trim();
+
+  const img = document.createElement("img");
+  img.src = `img/${letter}.jpeg`;
+
+  img.classList.add("letter-img");
+
+  element.appendChild(img);
+
   element.addEventListener("mouseenter", () => {
-    console.log(element.innerHTML);
-    img.src = `img/${element.innerHTML}.jpeg`;
-    element.appendChild(img);
+    element.classList.add("active");
   });
 
-  element.addEventListener("mouseleave", () => {});
+  element.addEventListener("mouseleave", () => {
+    element.classList.remove("active");
+  });
 });
