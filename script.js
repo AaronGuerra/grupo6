@@ -27,15 +27,16 @@ letters.forEach((element) => {
   });
 });
 const button = document.getElementById("randomColorsBtn");
+const hFive = document.getElementById("h5_green");
 
 button.addEventListener("click", () => {
-
   // volver todo a verde
   letters.forEach((el) => {
     el.style.color = "rgb(70, 117, 0)";
   });
 
-  const arr = Array.from(letters);
+  let arr = Array.from(letters);
+  arr.push(hFive);
 
   // mezclar aleatorio
   const shuffled = arr.sort(() => Math.random() - 0.5);
@@ -48,3 +49,4 @@ button.addEventListener("click", () => {
   // 1 roja
   shuffled[3].style.color = "red";
 });
+
