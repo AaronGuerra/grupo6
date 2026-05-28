@@ -76,12 +76,12 @@ body {
   font-weight: bold;
 }
 
-#x, #y, #z, #filler-gif {
+#x, #y, #z, #filler-gif, #btn-container {
     grid-row-start: 5;
 }
 
 #filler-gif {
-    grid-column: 4 / 7; 
+    grid-column: 4 / 6; 
 }
 
 #filler-gif .letter{
