@@ -1,5 +1,8 @@
-# Tareas
+# Desafio ABC parte 1
+Creacion de desafio ABC
 Los nombres de la ramas deben de tener este formato A-F letra comienzo y letra fin
+
+## Parte 2: https://github.com/MisterJpeeexD/desafio-abc-p2
 
 ## Integrantes
 ---
